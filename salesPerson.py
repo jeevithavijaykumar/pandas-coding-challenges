@@ -13,7 +13,6 @@ company = pd.DataFrame({'com_id': [1,2,3,4], 'name' :['RED','ORANGE','YELLOW','G
 orders = pd.DataFrame({'orders_id': [1,2,3,4], 'order_date' : ['1/1/2014','2/1/2014','3/1/2014','4/1/2014'],
                        'com_id' : [3,4,1,1],'sales_id' : [4,5,1,4],'amount' : [10000,5000,50000,25000]})
 
-
 class Solution:
     def sales(self, sales_person, company, orders):
         orders_with_company  = orders.merge(company, how='inner', on='com_id')
