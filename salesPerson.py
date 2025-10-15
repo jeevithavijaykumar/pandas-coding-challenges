@@ -22,4 +22,4 @@ class Solution:
         return pd.DataFrame({'name': result['name'].unique()})
 
 s= Solution()
-
+print(s.sales(sales_person,company,orders))
