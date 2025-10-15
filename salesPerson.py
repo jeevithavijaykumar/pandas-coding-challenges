@@ -1,7 +1,6 @@
 # Write a solution to find the names of all the salespersons who did not have any orders related to the company with the name "RED".
 # Return the result table in any order.
 
-
 import pandas as pd
 
 sales_person = pd.DataFrame({'sales_id' : [1,2,3,4,5], 'name': ['John','Amy','Mark','Pam','Alex'],
