@@ -21,4 +21,5 @@ class Solution:
         result = sales_person[~sales_person['sales_id'].isin(orderswithRed)]
         return pd.DataFrame({'name': result['name'].unique()})
 
+s= Solution()
 
