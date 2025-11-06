@@ -16,6 +16,7 @@ class solution:
         return pd.DataFrame({'recommended_page': recomendations.unique()})
 
 s= solution()
+print(s.page_recommendations(friendship,likes))
 
 
 
