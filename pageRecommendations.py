@@ -15,6 +15,7 @@ class solution:
         recomendations = likes['page_id'][(~likes['page_id'].isin(Liked_pages)) & (likes['user_id'].isin(friends))]
         return pd.DataFrame({'recommended_page': recomendations.unique()})
 
+s= solution()
 
 
 
