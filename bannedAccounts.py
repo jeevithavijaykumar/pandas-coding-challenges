@@ -17,4 +17,5 @@ class accounts:
 
 
 a = accounts()
+print(a.banned_accounts(log_info))
 
