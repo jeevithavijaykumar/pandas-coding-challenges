@@ -16,6 +16,7 @@ class accounts:
         result = df.loc[mask,['account_id']].drop_duplicates()
         return result
 
+
 a = accounts()
 print(a.banned_accounts(log_info))
 
